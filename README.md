@@ -10,13 +10,13 @@ I chose to implement it in C++ because it provides tools with the least level of
 In order to strictly adhere to the suggested time limit, I implemented only a simple testing suite (using the Catch2 library) containing exactly one unit test for the one unit method. This exists both as a test for that method and as a proof of concept of the general extendability of the project.
 
 ## Instructions for running
-1. make clean
+1. ```make clean```
 This removes all object files and the executables
-2. make blackjack
+2. ```make blackjack```
 This creates the blackjack binary
-3. ./blackjack
+3. ```./blackjack```
 This runs a blackjack game
-4. make test
+4. ```make test```
 Creates the test library
-5. ./test
+5. ```./test```
 Runs the unit test suite
